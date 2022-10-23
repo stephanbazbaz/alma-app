@@ -1,0 +1,64 @@
+@import "../../util/Styles.scss";
+
+.Experience {
+  width: 60%;
+  margin: auto;
+  font-family: saira;
+  h1 {
+    font-family: lobster_two;
+    color: $redColor;
+    margin: 20px 0;
+    font-size: 45px;
+    text-align: left;
+    position: relative;
+    left: -14px;
+  }
+  .experience-row {
+    gap: 40px;
+    text-align: left;
+    align-items: baseline;
+  }
+  .experience-col {
+    gap: 10px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 40px;
+    min-width: 80%;
+    max-width: 80%;
+    .red {
+      color: $redColor;
+      margin-right: 5px;
+    }
+    .name {
+      gap: 5px;
+    }
+
+    .experience-name {
+      color: $redColor;
+    }
+    .name-warp {
+      gap: 5px;
+    }
+  }
+  .MuiTabs-root {
+    margin-bottom: 50px;
+  }
+  .MuiTabs-scroller {
+    height: 30px;
+  }
+  .MuiTab-root.Mui-selected {
+    color: #cf6678;
+  }
+  .MuiTab-root {
+    align-items: baseline;
+    padding: 0;
+    margin-right: 10px;
+    text-transform: capitalize;
+    min-height: unset;
+    min-width: unset;
+    font-family: saira;
+  }
+  .MuiTabs-indicator {
+    left: 0;
+    background-color: rgb(153, 11, 11);
+  }
+}
