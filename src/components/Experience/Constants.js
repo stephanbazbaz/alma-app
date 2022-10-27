@@ -2,7 +2,7 @@ export const ExperienceArr = [
   {
     company: 'Keshet TV, 2022',
     title: 'Script Supervisor',
-    name: '"9 months"',
+    name: '"Third Body"',
     description: 'Drama television series directed by Shai Kapon'
   },
   {
@@ -33,7 +33,7 @@ export const ExperienceArr = [
 ]
 export const SocialArr = [
   {
-    company: 'Kelev',
+    company: 'KELEV',
     date: '2022',
     title: 'Social Manager',
     description: 'Developing strategies to increase followers, creating and overseeing social campaigns & producing content'

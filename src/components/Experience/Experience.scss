@@ -1,8 +1,9 @@
 @import "../../util/Styles.scss";
 
 .Experience {
-  width: 60%;
-  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+  margin: 100px auto 0;
   font-family: saira;
   h1 {
     font-family: lobster_two;
@@ -25,7 +26,7 @@
     min-width: 80%;
     max-width: 80%;
     .red {
-      color: $redColor;
+      color: black;
       margin-right: 5px;
     }
     .name {
@@ -33,7 +34,7 @@
     }
 
     .experience-name {
-      color: $redColor;
+      color: black;
     }
     .name-warp {
       gap: 5px;
@@ -46,7 +47,7 @@
     height: 30px;
   }
   .MuiTab-root.Mui-selected {
-    color: #cf6678;
+    color: black;
   }
   .MuiTab-root {
     align-items: baseline;
@@ -56,9 +57,11 @@
     min-height: unset;
     min-width: unset;
     font-family: saira;
+    color: black;
   }
   .MuiTabs-indicator {
     left: 0;
-    background-color: rgb(153, 11, 11);
+    background-color: #a738f0;
+    bottom: 8px;
   }
 }
