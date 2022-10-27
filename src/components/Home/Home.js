@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='Home flex-col'>
+    <div className='Home'>
       <div className='background-img'>
       </div>
     </div>

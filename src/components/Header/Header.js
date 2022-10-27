@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const navLinks = [
-    'Home',
     'Experience',
     'Projects',
     'Contact',
@@ -11,16 +10,27 @@ const Header = () => {
   return (
     <div className='Header'>
       <header>
-        {/* <Link to='/' className='nav-link'>Home</Link> */}
-        <div className='alma-warp'>
-          <h1>Alma Hemmo</h1>
-          <p>Writer | Director | Content Manager</p>
-        </div>
+        <Link to='/'>
+          <div className='alma-warp'>
+            <h1>Alma Hemmo</h1>
+            <div className='flx-spc-b '>
+              <p>Writer</p>
+              <div style={{
+                fontSize: '10px'
+              }}>|</div>
+              <p>Director</p>
+              <div style={{
+                fontSize: '10px'
+              }}>|</div>
+              <p>Content Manager</p>
+            </div>
+          </div>
+        </Link>
 
         <nav className='navbar'>{navLinks.map((link, idx) =>
           <Link
             to={link.toLowerCase()}
-            className='nav-link'
+            className='nav-link expand'
             key={`navlink-${idx}`}>{link}
           </Link>)}
         </nav>

@@ -11,3 +11,23 @@
   src: url("../assests/fonts/Anton/Anton-Regular.ttf");
 }
 $redColor: #990b0b;
+$purpleColor: #a738f0;
+@mixin hover_line {
+  .expand {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .expand:after {
+    display: block;
+    content: "";
+    border-bottom: solid 2px $purpleColor;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+    transform-origin: 100% 50%;
+  }
+  .expand:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0 50%;
+  }
+}

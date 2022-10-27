@@ -4,21 +4,14 @@
   font-family: saira;
   padding-top: 21px;
   color: black;
+  @include hover_line;
   header {
     align-items: stretch;
     box-sizing: border-box;
-    // padding: 0 20px;
     display: flex;
     justify-content: space-between;
     margin: auto;
     width: 90%;
-
-    // color: black;
-    // a,
-    // p,
-    // h1 {
-    //   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.62);
-    // }
     a {
       text-decoration: none;
       color: black;
@@ -34,30 +27,23 @@
   h1 {
     border-bottom: 2px solid #a738f0;
     padding-bottom: 3px;
-    // text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.62);
     font-family: anton;
     font-size: 36px;
-    // color: white;
     z-index: 1;
     text-align: left;
     line-height: 1;
-    // padding-left: 40px;
     text-transform: uppercase;
     letter-spacing: 5px;
   }
   p {
-    // color: white;
     font-size: 12px;
     text-transform: uppercase;
-    /* margin-top: 5px; */
     text-align: left;
-    // padding-right: 5px;
   }
   .navbar {
     display: flex;
     justify-content: center;
-    gap: 9px;
+    gap: 15px;
     align-items: center;
-    // border-bottom: 1px solid #990b0b;
   }
 }
